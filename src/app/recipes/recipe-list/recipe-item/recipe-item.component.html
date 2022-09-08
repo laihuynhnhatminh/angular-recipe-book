@@ -1,0 +1,19 @@
+<a type="button" class="list-group-item" [routerLink]="[index]" routerLinkActive="active"
+    style="margin-top: 8px; margin-bottom: 8px;">
+    <div class="row d-flex w-100">
+        <div class="col-10 justify-content-start">
+            <h5 class="mb-1">{{recipe.name}}</h5>
+            <div>
+                <small class="text-muted text-wrap">{{recipe.description}}</small>
+            </div>
+
+        </div>
+        <div class="col-2 ">
+            <span>
+                <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="float-end rounded"
+                    style="max-height: 80px; max-width: 80px;">
+            </span>
+        </div>
+
+    </div>
+</a>

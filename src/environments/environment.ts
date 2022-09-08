@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseAPI: 'AIzaSyAT8o5Xjnj2Fo5cdaFku5WP6hRm9y5rpLQ',
 };
 
 /*
@@ -14,3 +15,4 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+//https://angular-recipe-book-8ce1c.web.app
